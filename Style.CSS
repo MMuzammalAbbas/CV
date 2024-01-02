@@ -1,0 +1,138 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    background-color: #dfdbdb;
+    color: #333;
+  }
+  .page-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Adjust column widths as needed */
+  }
+  .left-column {
+    padding: 20px;
+    background-color: #1f1e1e; /* Add background color if needed */
+    border-radius: 8px; /* Add border radius if needed */
+    box-shadow: 0 4px 8px rgba(18, 18, 18, 0.1); /* Add box shadow if needed */
+  }
+  .left-column h2 {
+    position: relative;
+  }
+  .left-column h2::after {
+    content: "";
+    display: block;
+    width: 20dvw; /* Adjust the width of the line */
+    height: 2px; /* Adjust the height/thickness of the line */
+    background-color: #0798ff; /* Line color */
+    position: absolute;
+    top: 100%; /* Position the line below the heading */
+    left: 0;
+    margin-top: 5px; /* Adjust the distance between the heading and the line */
+  }
+  .header-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column layout */
+    grid-gap: 20px;
+    text-align: center;
+  }
+  
+  .profile-picture img {
+    width: 190px; /* Adjust the size as needed */
+    height: 190px; /* Adjust the size as needed */
+    border-radius: 50%;
+    border: 3px solid #fff;
+  }
+  
+  .name {
+    text-align: center;
+  }
+  
+  .contact-section,
+  .education-section,
+  .skills-section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #0798ff;
+  }
+  
+  .contact-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-list li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-list i {
+    margin-right: 10px;
+    color: #0798ff; /* Icon color */
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  .left-column h1{
+    color: #0798ff; 
+  }
+  .left-column h3,
+.left-column li {
+  color: white;
+}
+  
+  .right-column {
+    padding: 20px;
+    background-color: #fff; /* Add background color if needed */
+    border-radius: 8px; /* Add border radius if needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow if needed */
+  }
+  .name {
+    display: flex;
+    flex-direction: column;
+  }
+  .profile-section,
+  .internships-section,
+  .certifications-section,
+  .projects-section,
+  .experience-section {
+    margin-bottom: 20px;
+  }
+  .right-column h2 {
+    position: relative;
+  }
+  .right-column h2::after {
+    content: "";
+    display: block;
+    width: 30dvw; /* Adjust the width of the line */
+    height: 2px; /* Adjust the height/thickness of the line */
+    background-color: #111212; /* Line color */
+    position: absolute;
+    top: 100%; /* Position the line below the heading */
+    left: 0;
+    margin-top: 5px; /* Adjust the distance between the heading and the line */
+  }
+  
+  h2 {
+    color: #0798ff;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+
+  
+  
